@@ -37,7 +37,7 @@ describe('usuario', () => {
     cy.contains('E-mail já cadastrado!')
   })
 
-  it('Deve retornar uma consulta do usurário cadastrado com status ativo - cenário de sucesso', () => {
+  it('Deve retornar uma consulta do usuário cadastrado com status ativo - cenário de sucesso', () => {
     cy.visit('https://front-cras.app.fslab.dev/');
     cy.get('#email').type('adelson.moreira7293298820@gmail.com');
     cy.get('#senha').type('123');
